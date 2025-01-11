@@ -1,0 +1,129 @@
+/* 
+ * Container styles for the chat application.
+ * Ensures the container takes up at least 50% of the viewport height 
+ * and can grow to a maximum of 100% of the viewport height.
+ */
+ .container-fluid {
+   min-height: 50vh;
+   max-height: 100vh;
+}
+
+/* 
+ * Styles for the green background header or section.
+ * Sets the background color to green, text color to white, 
+ * and centers the text.
+ */
+.bg-color-green {
+   background-color: rgb(76, 175, 80);
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+/* 
+ * Styles for the gray background area where messages are displayed.
+ * Ensures it has a minimum height, allows scrolling if content overflows,
+ * and adds padding for spacing.
+ */
+.bg-color-gray {
+   background-color: rgb(231, 231, 231);
+   min-height: 84vh;
+   overflow-y: auto; /* Ensure scrolling if content overflows */
+   padding: 10px;
+}
+
+/* 
+ * Styles for the user's own messages.
+ * Sets a light green background, padding, margin, and rounded corners.
+ */
+.my-message {
+   background-color: #d1ffd6;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 10px;
+}
+
+/* 
+ * Styles for messages from other users.
+ * Sets a light red background, padding, margin, and rounded corners.
+ */
+.others-message {
+   background-color: #ffdede;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 10px;
+}
+
+/* 
+ * Styles for the message header.
+ * Makes the header bold for emphasis.
+ */
+.message-header {
+   font-weight: bold;
+}
+
+/* 
+ * General styles for message containers.
+ * Adds padding, border, rounded corners, and limits the width.
+ */
+.message {
+   padding: 3px 10px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   text-align: left;
+   max-width: 70%;
+}
+
+/* 
+ * Styles for the message header text.
+ * Sets a smaller font size and left alignment.
+ */
+.message-header {
+   font-size: small;
+   text-align: left;
+}
+
+/* 
+ * Additional styles for the user's own messages.
+ * Aligns the message to the right and sets a specific background color.
+ */
+.my-message {
+   margin-left: auto;
+   background-color: rgb(175, 255, 176);
+}
+
+/* 
+ * Additional styles for messages from other users.
+ * Aligns the message to the left and sets a specific background color.
+ */
+.others-message {
+   background-color: rgb(250, 235, 215);
+   margin-right: auto;
+}
+
+/* 
+ * Styles for the message input area.
+ * Sets a minimum height for the input section.
+ */
+.send-message {
+   min-height: 5vh;
+}
+
+/* 
+ * Styles for a container that limits its maximum height to 90% of the viewport.
+ * Uses flexbox for layout.
+ */
+.max-height-90 {
+   max-height: 90vh;
+   display: flex;
+}
+
+/* 
+ * Flexbox styles for aligning content.
+ * Sets the direction to column and centers the content.
+ */
+.d-flex {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+}
