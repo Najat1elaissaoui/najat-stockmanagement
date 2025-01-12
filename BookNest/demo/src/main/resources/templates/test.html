@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+
+<h1>Books List</h1>
+
+<!-- Minimal template to check if rendering works -->
+<!--<div th:each="book : ${books}">
+    <p th:text="${book.title}">Book Title</p>
+    <p th:text="${book.category}">Category</p>
+</div>-->
+
+<div th:each="book : ${books}">
+    <p th:text="${book.genre}">Book Title</p>
+</div>
+</body>
+</html>
