@@ -1,0 +1,7 @@
+const GetProductsType = {
+    GET_PRODUCTS_SUCCESS: 'GET_PRODUCTS_SUCCESS',
+    GET_PRODUCTS_FAILURE: 'GET_PRODUCTS_FAILURE',
+    SET_LOADING: 'SET_LOADING',
+};
+
+export default GetProductsType;

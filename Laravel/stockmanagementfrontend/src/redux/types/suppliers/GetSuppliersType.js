@@ -1,0 +1,7 @@
+const GetSuppliersType = {
+    GET_SUPPLIERS_SUCCESS: "GET_SUPPLIERS_SUCCESS",
+    GET_SUPPLIERS_FAIL: "GET_SUPPLIERS_FAIL",
+    GET_SUPPLIERS_REQUEST: "GET_SUPPLIERS_REQUEST",
+};
+
+export default GetSuppliersType;
